@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">モバイルアプリ</string>
+    <string name ="text">Textview</string>
 </resources>
