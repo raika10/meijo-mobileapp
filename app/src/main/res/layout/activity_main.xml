@@ -9,41 +9,60 @@
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="327dp"
-        android:layout_height="161dp"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         android:text="@string/text"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintVertical_bias="0.029" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="255dp"
         android:layout_height="211dp"
+        android:layout_marginStart="307dp"
+        android:layout_marginEnd="306dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_android"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="264dp" />
+        tools:layout_editor_absoluteY="802dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="374dp"
-        tools:layout_editor_absoluteY="844dp" />
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="72dp"
+        android:text="change"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="333dp"
-        android:layout_height="142dp"
-        android:layout_marginTop="76dp"
+        android:layout_width="196dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="text"
         android:text="Name"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:layout_editor_absoluteX="255dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="72dp"
+        android:text="save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
